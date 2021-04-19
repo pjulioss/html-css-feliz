@@ -1,0 +1,28 @@
+header{
+    background-color:#ffffff ;
+    border-bottom: 8px solid #242F40;
+}
+
+a {
+    color:#242F40;
+    font-size: 20px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+#download-cv {
+    display: inline-block;
+    background-color: #7CA982;
+    padding: 12px 20px;
+    box-shadow: 5px 5px 0px #0A0A0A;
+    transition: .3s;
+   
+}
+
+#download-cv:hover {
+    box-shadow: 5px -5px 0px #0A0A0A;
+
+}
