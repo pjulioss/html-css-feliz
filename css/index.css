@@ -13,7 +13,7 @@ a {
     align-items: center;
     color:#242F40;
     font-size: 20px;
-    font-family: 'Antonio', sans-serif;
+   font-family: 'Karla', sans-serif;
     font-weight: 500;
     text-decoration: none;
     margin-right: 50px;
@@ -31,13 +31,13 @@ a::before {
     display: inline-block;
     background-color: #7CA982;
     padding: 10px 16px;
-    box-shadow: 5px 5px 0px #0A0A0A;
+    box-shadow: 5px 5px 0px #242F40;
     transition: .3s;
     margin-right: 0;
    
 }
 
 #download-cv:hover {
-    box-shadow: 5px -5px 0px #0A0A0A;
+    box-shadow: 5px -5px 0px #242F40;
 
 }
