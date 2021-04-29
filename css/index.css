@@ -13,7 +13,7 @@ a {
     align-items: center;
     color:#242F40;
     font-size: 20px;
-   font-family: 'Karla', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-weight: 500;
     text-decoration: none;
     margin-right: 50px;
@@ -25,6 +25,11 @@ a::before {
     width: 10px;
     height: 10px;
     margin-right: 10px;
+    transition:  .3s ease-in-out;
+}
+
+a:hover::before {
+    background-color: #242F40;
 }
 
 #download-cv {
@@ -41,3 +46,4 @@ a::before {
     box-shadow: 5px -5px 0px #242F40;
 
 }
+
