@@ -1,0 +1,14 @@
+.button {
+    display: inline-block;
+    background-color: #7CA982;
+    padding: 10px 16px;
+    box-shadow: 5px 5px 0px #242F40;
+    transition: .3s;
+    margin-right: 0;
+
+}
+
+.button:hover {
+    box-shadow: 5px -5px 0px #242F40;
+
+}
